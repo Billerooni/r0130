@@ -1,0 +1,17 @@
+body {
+    background  : black;
+    color       : lime;
+    font-family : monospace;
+}
+.invisible {
+    visibility  : hidden;
+}
+::selection {
+    background  : green;
+}
+a {
+    color       : lime;
+}
+td:first-child {
+    width       : 100px;
+}

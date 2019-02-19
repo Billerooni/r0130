@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>R-0130</title>
+        <link href="style.css"          rel="stylesheet"    type="text/css"/>
+        <!--<link href="assets/favicon.png" rel="shortcut icon" type="image/png"/>-->
+        
+        <meta charset="utf-8"/>
+        <meta name="author"         content="HexdePixel"/>
+        <meta name="description"    content="A game about staying charged."/>
+        <meta name="viewport"       content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <p id="actionsContainer">
+            <a href="javascript:mine()">Mine</a><br/>
+            <a href="javascript:items.dirt.use()" id="dirtUseLink">Throw dirt away</a><br/>
+            <a class="invisible" href="javascript:items.coal.use()" id="coalUseLink">Burn coal</a>
+        </p>
+        
+        <table>
+            <tr>
+                <td>Power</td>
+                <td id="powerIndicator">100/100</td>
+            </tr>
+        </table>
+        <br/>
+        <table>
+            <tr class="invisible" id="totalIndicatorRow">
+                <td>Total</td>
+                <td id="totalIndicator"></td>
+            </tr>
+            <tr class="invisible" id="dirtIndicatorRow">
+                <td>Dirt</td>
+                <td id="dirtIndicator"></td>
+            </tr>
+            <tr class="invisible" id="coalIndicatorRow">
+                <td>Coal</td>
+                <td id="coalIndicator"></td>
+            </tr>
+        </table>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
