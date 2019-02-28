@@ -6,6 +6,9 @@ body {
 .invisible {
     visibility  : hidden;
 }
+.warning {
+    color       : red;
+}
 ::selection {
     background  : green;
 }
